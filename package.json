@@ -1,0 +1,27 @@
+{
+  "name": "ui-automation",
+  "version": "1.0.0",
+  "description": "ui-automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "selenium:server": "java -jar ./utilities/selenium-server-standalone-3.141.5.jar"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/node": "^7.4.5",
+    "@wdio/cli": "^7.1.0",
+    "cucumber": "^7.0.0-rc.0",
+    "webdriverio": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "@wdio/cucumber-framework": "^7.0.7",
+    "@wdio/local-runner": "^7.1.0",
+    "@wdio/sync": "^7.1.0"
+  }
+}
